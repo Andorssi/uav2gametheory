@@ -12,7 +12,3 @@ Thumbs.db
 
 # VS Code
 .vscode/
-
-# 出力画像・結果ファイルを上げたくない場合
-*.png
-*.csv
