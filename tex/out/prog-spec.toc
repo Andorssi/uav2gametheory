@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}はじめに}{2}{}%
+\contentsline {section}{\numberline {2}クラス図}{2}{}%
+\contentsline {section}{\numberline {3}詳細仕様}{2}{}%
+\contentsline {subsection}{\numberline {3.1}グローバル変数設定}{2}{}%
+\contentsline {subsection}{\numberline {3.2}Areaクラス}{2}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}\texttt {add\_client(u)}}{3}{}%
+\contentsline {subsection}{\numberline {3.3}Fieldクラス}{3}{}%
+\contentsline {subsection}{\numberline {3.4}UAVクラス}{3}{}%
+\contentsline {subsection}{\numberline {3.5}Serverクラス}{3}{}%
+\contentsline {subsection}{\numberline {3.6}Gameクラス}{3}{}%
