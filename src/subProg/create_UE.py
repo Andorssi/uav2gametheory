@@ -1,7 +1,7 @@
 import random
 from collections import defaultdict
 
-U = 200
+U = 400
 I = 49
 
 def create_client_file(filename):
@@ -20,8 +20,8 @@ def count_client(filename):
 
 def main():
 
-    # create_client_file("client_area.txt")
-    client_count = count_client("client_area.txt")
+    create_client_file(f"client_area_{U}.txt")
+    client_count = count_client(f"client_area_{U}.txt")
 
     for area in sorted(client_count):
         print(f"領域{area}: {client_count[area]}")

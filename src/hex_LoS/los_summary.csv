@@ -1,0 +1,5 @@
+﻿environment,height_m,hex_radius_m,min_elevation_deg,min_los_percent,mean_los_percent,max_los_percent
+Suburban,100.00,50.00,63.434949,100.000000,100.000000,100.000000
+Urban,100.00,50.00,63.434949,99.825488,99.948976,99.997507
+Dense urban,100.00,50.00,63.434949,95.920296,98.320262,99.771625
+High-rise urban,100.00,50.00,63.434949,39.941016,58.790907,84.777824
