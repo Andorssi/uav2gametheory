@@ -1,0 +1,4 @@
+uav2game01.py ~ uav2game05.py
+
+これらのpythonファイルでは，UEの管理が領域ごとによるものであるため，client_area.txtを用いる．
+それ以降はCTCRWを導入し，座標管理になっている．

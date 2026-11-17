@@ -1,3 +1,7 @@
+"""
+社会最適実装の完成(ε-greedyの導入および目的関数の策定)
+"""
+
 from collections import defaultdict, deque
 import matplotlib.pyplot as plt
 from matplotlib.patches import RegularPolygon
@@ -14,7 +18,7 @@ I = list(range(49))     # 領域生成
 M = 5                   # 一度に通信できるクライアント数
 width = 7               # 横
 height = 7              # 縦
-move_k = 2              # UAVはmove_kマス移動可能
+move_k = 1              # UAVはmove_kマス移動可能
 
 # CTCRW（Continuous-Time Correlated Random Walk）のパラメータ（暫定値）
 STEP_DURATION = 60.0      # UAV移動・通信を含む1ステップの時間[s]

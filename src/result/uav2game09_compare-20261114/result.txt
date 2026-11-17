@@ -1,0 +1,542 @@
+結果保存先: /home/andorssi/uav2gametheory/src/result/uav2game09_compare-20261114
+乱数シード: 2168664371334897783
+社会最適のみと社会最適＋自己最適を，同じ初期条件で続けて実行します．
+saved: /home/andorssi/uav2gametheory/src/result/uav2game09_compare-20261114/hex_ue_positions.png
+initial plan created at t=0: social, epsilon=0.1, move_k=1
+計画終了時の仮想未収集UE数: 0
+UAV0 plan: [24, 17, 16, 8, 1, 7, 14, 21, 15, 14, 7, 0, 1, 8, 15, 22, 29, 36]
+UAV1 plan: [17, 10, 11, 4, 4, 3, 2, 9, 10, 18, 10, 3, 9, 16, 8, 15, 22, 29]
+UAV2 plan: [31, 37, 30, 22, 28, 35, 42, 43, 36, 44, 45, 38, 46, 38, 37, 38, 44, 44]
+UAV3 plan: [25, 19, 19, 12, 13, 6, 5, 4, 5, 6, 13, 20, 27, 26, 27, 34, 41, 48]
+UAV4 plan: [32, 39, 40, 46, 47, 48, 41, 41, 34, 33, 39, 39, 31, 24, 30, 29, 36, 43]
+saved: /home/andorssi/uav2gametheory/src/result/uav2game09_compare-20261114/initial_plan_social.png
+
+t = 0
+placement:
+  UAV0 -> area 24 (greedy)
+  UAV1 -> area 17 (greedy)
+  UAV2 -> area 31 (greedy)
+  UAV3 -> area 25 (greedy)
+  UAV4 -> area 32 (greedy)
+収集済UE数: 20
+未収集UE数: 180
+UE移動（領域変更数）: 40
+UE移動（平均距離[m]）: 21.72
+
+t = 1
+placement:
+  UAV0 -> area 17 (greedy)
+  UAV1 -> area 10 (greedy)
+  UAV2 -> area 37 (greedy)
+  UAV3 -> area 19 (greedy)
+  UAV4 -> area 39 (random)
+収集済UE数: 20
+未収集UE数: 160
+UE移動（領域変更数）: 40
+UE移動（平均距離[m]）: 23.33
+
+t = 2
+placement:
+  UAV0 -> area 16 (greedy)
+  UAV1 -> area 11 (greedy)
+  UAV2 -> area 30 (greedy)
+  UAV3 -> area 19 (greedy)
+  UAV4 -> area 40 (random)
+収集済UE数: 19
+未収集UE数: 141
+UE移動（領域変更数）: 41
+UE移動（平均距離[m]）: 21.46
+
+t = 3
+placement:
+  UAV0 -> area 8 (greedy)
+  UAV1 -> area 4 (greedy)
+  UAV2 -> area 22 (greedy)
+  UAV3 -> area 12 (greedy)
+  UAV4 -> area 46 (greedy)
+収集済UE数: 16
+未収集UE数: 125
+UE移動（領域変更数）: 40
+UE移動（平均距離[m]）: 21.82
+
+t = 4
+placement:
+  UAV0 -> area 1 (greedy)
+  UAV1 -> area 4 (greedy)
+  UAV2 -> area 28 (greedy)
+  UAV3 -> area 13 (greedy)
+  UAV4 -> area 47 (greedy)
+収集済UE数: 17
+未収集UE数: 108
+UE移動（領域変更数）: 36
+UE移動（平均距離[m]）: 23.08
+
+t = 5
+placement:
+  UAV0 -> area 7 (greedy)
+  UAV1 -> area 3 (greedy)
+  UAV2 -> area 35 (greedy)
+  UAV3 -> area 6 (greedy)
+  UAV4 -> area 48 (greedy)
+収集済UE数: 12
+未収集UE数: 96
+UE移動（領域変更数）: 37
+UE移動（平均距離[m]）: 21.48
+
+t = 6
+placement:
+  UAV0 -> area 14 (greedy)
+  UAV1 -> area 2 (greedy)
+  UAV2 -> area 42 (greedy)
+  UAV3 -> area 5 (random)
+  UAV4 -> area 41 (greedy)
+収集済UE数: 18
+未収集UE数: 78
+UE移動（領域変更数）: 35
+UE移動（平均距離[m]）: 24.81
+
+t = 7
+placement:
+  UAV0 -> area 21 (greedy)
+  UAV1 -> area 9 (greedy)
+  UAV2 -> area 43 (greedy)
+  UAV3 -> area 4 (greedy)
+  UAV4 -> area 41 (random)
+収集済UE数: 11
+未収集UE数: 67
+UE移動（領域変更数）: 26
+UE移動（平均距離[m]）: 22.44
+
+t = 8
+placement:
+  UAV0 -> area 15 (greedy)
+  UAV1 -> area 10 (greedy)
+  UAV2 -> area 36 (greedy)
+  UAV3 -> area 5 (greedy (approach))
+  UAV4 -> area 34 (greedy)
+収集済UE数: 10
+未収集UE数: 57
+UE移動（領域変更数）: 17
+UE移動（平均距離[m]）: 20.93
+
+t = 9
+placement:
+  UAV0 -> area 14 (greedy)
+  UAV1 -> area 18 (greedy)
+  UAV2 -> area 44 (random)
+  UAV3 -> area 6 (greedy)
+  UAV4 -> area 33 (greedy)
+収集済UE数: 5
+未収集UE数: 52
+UE移動（領域変更数）: 21
+UE移動（平均距離[m]）: 24.83
+
+t = 10
+placement:
+  UAV0 -> area 7 (greedy (approach))
+  UAV1 -> area 10 (greedy (approach))
+  UAV2 -> area 45 (greedy)
+  UAV3 -> area 13 (greedy (approach))
+  UAV4 -> area 39 (greedy)
+収集済UE数: 4
+未収集UE数: 48
+UE移動（領域変更数）: 17
+UE移動（平均距離[m]）: 20.73
+
+t = 11
+placement:
+  UAV0 -> area 0 (greedy)
+  UAV1 -> area 3 (random)
+  UAV2 -> area 38 (greedy)
+  UAV3 -> area 20 (greedy)
+  UAV4 -> area 39 (random)
+収集済UE数: 8
+未収集UE数: 40
+UE移動（領域変更数）: 20
+UE移動（平均距離[m]）: 19.81
+
+t = 12
+placement:
+  UAV0 -> area 1 (greedy (approach))
+  UAV1 -> area 9 (greedy (approach))
+  UAV2 -> area 46 (greedy)
+  UAV3 -> area 27 (greedy)
+  UAV4 -> area 31 (greedy)
+収集済UE数: 9
+未収集UE数: 31
+UE移動（領域変更数）: 10
+UE移動（平均距離[m]）: 24.74
+
+t = 13
+placement:
+  UAV0 -> area 8 (greedy (approach))
+  UAV1 -> area 16 (greedy)
+  UAV2 -> area 38 (greedy (approach))
+  UAV3 -> area 26 (greedy)
+  UAV4 -> area 24 (greedy)
+収集済UE数: 5
+未収集UE数: 26
+UE移動（領域変更数）: 7
+UE移動（平均距離[m]）: 21.00
+
+t = 14
+placement:
+  UAV0 -> area 15 (greedy (approach))
+  UAV1 -> area 8 (random)
+  UAV2 -> area 37 (greedy)
+  UAV3 -> area 27 (random)
+  UAV4 -> area 30 (greedy (approach))
+収集済UE数: 6
+未収集UE数: 20
+UE移動（領域変更数）: 8
+UE移動（平均距離[m]）: 25.26
+
+t = 15
+placement:
+  UAV0 -> area 22 (greedy (approach))
+  UAV1 -> area 15 (greedy (approach))
+  UAV2 -> area 38 (random)
+  UAV3 -> area 34 (greedy (approach))
+  UAV4 -> area 29 (greedy)
+収集済UE数: 1
+未収集UE数: 19
+UE移動（領域変更数）: 10
+UE移動（平均距離[m]）: 26.67
+
+t = 16
+placement:
+  UAV0 -> area 29 (greedy (approach))
+  UAV1 -> area 22 (greedy (approach))
+  UAV2 -> area 44 (random)
+  UAV3 -> area 41 (greedy (approach))
+  UAV4 -> area 36 (greedy (approach))
+収集済UE数: 1
+未収集UE数: 18
+UE移動（領域変更数）: 4
+UE移動（平均距離[m]）: 21.25
+
+t = 17
+placement:
+  UAV0 -> area 36 (greedy (approach))
+  UAV1 -> area 29 (greedy (approach))
+  UAV2 -> area 44 (random)
+  UAV3 -> area 48 (greedy)
+  UAV4 -> area 43 (greedy)
+収集済UE数: 3
+未収集UE数: 15
+UE移動（領域変更数）: 3
+UE移動（平均距離[m]）: 13.81
+
+初期計画の実行終了: 18ステップ（最大25ステップ）
+実行時間: 18.0分
+収集済UE総数: 185
+t=0の仮想計画での未収集UE数: 0
+実際の未収集UE数: 15
+未収集UEが残りました．初期軌道に基づく収集を終了します（自動再計画・自己最適への切り替えは行いません）．
+saved: /home/andorssi/uav2gametheory/src/result/uav2game09_compare-20261114/hex_ue_positions.png
+initial plan created at t=0: hybrid, epsilon=0.1, move_k=1
+計画終了時の仮想未収集UE数: 0
+UAV0 plan: [24, 17, 16, 8, 1, 7, 14, 21, 15, 14, 7, 0, 1, 8, 15, 22, 29, 36]
+UAV1 plan: [17, 10, 11, 4, 4, 3, 2, 9, 10, 18, 10, 3, 9, 16, 8, 15, 22, 29]
+UAV2 plan: [31, 37, 30, 22, 28, 35, 42, 43, 36, 44, 45, 38, 46, 38, 37, 38, 44, 44]
+UAV3 plan: [25, 19, 19, 12, 13, 6, 5, 4, 5, 6, 13, 20, 27, 26, 27, 34, 41, 48]
+UAV4 plan: [32, 39, 40, 46, 47, 48, 41, 41, 34, 33, 39, 39, 31, 24, 30, 29, 36, 43]
+saved: /home/andorssi/uav2gametheory/src/result/uav2game09_compare-20261114/initial_plan_hybrid.png
+
+t = 0
+placement:
+  UAV0 -> area 24 (SOCIAL, next_plan_index=1)
+  UAV1 -> area 17 (SOCIAL, next_plan_index=1)
+  UAV2 -> area 31 (SOCIAL, next_plan_index=1)
+  UAV3 -> area 25 (SOCIAL, next_plan_index=1)
+  UAV4 -> area 32 (SOCIAL, next_plan_index=1)
+収集済UE数: 20
+未収集UE数: 180
+UE移動（領域変更数）: 40
+UE移動（平均距離[m]）: 21.72
+
+t = 1
+placement:
+  UAV0 -> area 17 (SOCIAL, next_plan_index=2)
+  UAV1 -> area 18 (SELF, next_plan_index=1)
+  UAV2 -> area 37 (SOCIAL, next_plan_index=2)
+  UAV3 -> area 19 (SOCIAL, next_plan_index=2)
+  UAV4 -> area 39 (SOCIAL, next_plan_index=2)
+収集済UE数: 22
+未収集UE数: 158
+UE移動（領域変更数）: 40
+UE移動（平均距離[m]）: 23.33
+
+t = 2
+placement:
+  UAV0 -> area 16 (SOCIAL, next_plan_index=3)
+  UAV1 -> area 10 (RECOVERY, next_plan_index=2)
+  UAV2 -> area 38 (SELF, next_plan_index=2)
+  UAV3 -> area 12 (SELF, next_plan_index=2)
+  UAV4 -> area 40 (SOCIAL, next_plan_index=3)
+収集済UE数: 23
+未収集UE数: 135
+UE移動（領域変更数）: 39
+UE移動（平均距離[m]）: 21.79
+
+t = 3
+placement:
+  UAV0 -> area 8 (SOCIAL, next_plan_index=4)
+  UAV1 -> area 11 (SOCIAL, next_plan_index=3)
+  UAV2 -> area 31 (RECOVERY, next_plan_index=2)
+  UAV3 -> area 19 (RECOVERY, next_plan_index=3)
+  UAV4 -> area 48 (SELF, next_plan_index=3)
+収集済UE数: 17
+未収集UE数: 118
+UE移動（領域変更数）: 38
+UE移動（平均距離[m]）: 21.73
+
+t = 4
+placement:
+  UAV0 -> area 1 (SOCIAL, next_plan_index=5)
+  UAV1 -> area 4 (SOCIAL, next_plan_index=4)
+  UAV2 -> area 30 (RECOVERY, next_plan_index=3)
+  UAV3 -> area 27 (SELF, next_plan_index=3)
+  UAV4 -> area 40 (RECOVERY, next_plan_index=3)
+収集済UE数: 18
+未収集UE数: 100
+UE移動（領域変更数）: 31
+UE移動（平均距離[m]）: 22.16
+
+t = 5
+placement:
+  UAV0 -> area 7 (SOCIAL, next_plan_index=6)
+  UAV1 -> area 5 (SELF, next_plan_index=4)
+  UAV2 -> area 22 (SOCIAL, next_plan_index=4)
+  UAV3 -> area 19 (RECOVERY, next_plan_index=3)
+  UAV4 -> area 46 (RECOVERY, next_plan_index=4)
+収集済UE数: 10
+未収集UE数: 90
+UE移動（領域変更数）: 28
+UE移動（平均距離[m]）: 20.05
+
+t = 6
+placement:
+  UAV0 -> area 14 (SOCIAL, next_plan_index=7)
+  UAV1 -> area 4 (RECOVERY, next_plan_index=5)
+  UAV2 -> area 28 (SOCIAL, next_plan_index=5)
+  UAV3 -> area 12 (RECOVERY, next_plan_index=4)
+  UAV4 -> area 39 (SELF, next_plan_index=4)
+収集済UE数: 15
+未収集UE数: 75
+UE移動（領域変更数）: 28
+UE移動（平均距離[m]）: 25.86
+
+t = 7
+placement:
+  UAV0 -> area 21 (SOCIAL, next_plan_index=8)
+  UAV1 -> area 3 (SOCIAL, next_plan_index=6)
+  UAV2 -> area 35 (SOCIAL, next_plan_index=6)
+  UAV3 -> area 13 (SOCIAL, next_plan_index=5)
+  UAV4 -> area 40 (RECOVERY, next_plan_index=4)
+収集済UE数: 8
+未収集UE数: 67
+UE移動（領域変更数）: 23
+UE移動（平均距離[m]）: 23.45
+
+t = 8
+placement:
+  UAV0 -> area 21 (SELF, next_plan_index=8)
+  UAV1 -> area 9 (SELF, next_plan_index=6)
+  UAV2 -> area 42 (SOCIAL, next_plan_index=7)
+  UAV3 -> area 6 (SOCIAL, next_plan_index=6)
+  UAV4 -> area 47 (RECOVERY, next_plan_index=5)
+収集済UE数: 16
+未収集UE数: 51
+UE移動（領域変更数）: 18
+UE移動（平均距離[m]）: 22.10
+
+t = 9
+placement:
+  UAV0 -> area 15 (RECOVERY, next_plan_index=9)
+  UAV1 -> area 2 (RECOVERY, next_plan_index=7)
+  UAV2 -> area 36 (SELF, next_plan_index=7)
+  UAV3 -> area 5 (SOCIAL, next_plan_index=7)
+  UAV4 -> area 48 (SOCIAL, next_plan_index=6)
+収集済UE数: 9
+未収集UE数: 42
+UE移動（領域変更数）: 16
+UE移動（平均距離[m]）: 22.32
+
+t = 10
+placement:
+  UAV0 -> area 14 (SOCIAL, next_plan_index=10)
+  UAV1 -> area 9 (SOCIAL, next_plan_index=8)
+  UAV2 -> area 43 (RECOVERY, next_plan_index=8)
+  UAV3 -> area 12 (SELF, next_plan_index=7)
+  UAV4 -> area 41 (SOCIAL, next_plan_index=7)
+収集済UE数: 8
+未収集UE数: 34
+UE移動（領域変更数）: 11
+UE移動（平均距離[m]）: 21.37
+
+t = 11
+placement:
+  UAV0 -> area 7 (SOCIAL, next_plan_index=11)
+  UAV1 -> area 10 (SOCIAL, next_plan_index=9)
+  UAV2 -> area 36 (SOCIAL, next_plan_index=9)
+  UAV3 -> area 5 (RECOVERY, next_plan_index=7)
+  UAV4 -> area 33 (SELF, next_plan_index=7)
+収集済UE数: 7
+未収集UE数: 27
+UE移動（領域変更数）: 9
+UE移動（平均距離[m]）: 20.82
+
+t = 12
+placement:
+  UAV0 -> area 1 (SELF, next_plan_index=11)
+  UAV1 -> area 18 (SOCIAL, next_plan_index=10)
+  UAV2 -> area 44 (SOCIAL, next_plan_index=10)
+  UAV3 -> area 4 (RECOVERY, next_plan_index=8)
+  UAV4 -> area 41 (RECOVERY, next_plan_index=8)
+収集済UE数: 4
+未収集UE数: 23
+UE移動（領域変更数）: 6
+UE移動（平均距離[m]）: 23.83
+
+t = 13
+placement:
+  UAV0 -> area 0 (RECOVERY, next_plan_index=12)
+  UAV1 -> area 10 (SOCIAL, next_plan_index=11)
+  UAV2 -> area 37 (SELF, next_plan_index=10)
+  UAV3 -> area 5 (SOCIAL, next_plan_index=9)
+  UAV4 -> area 34 (SOCIAL, next_plan_index=9)
+収集済UE数: 6
+未収集UE数: 17
+UE移動（領域変更数）: 8
+UE移動（平均距離[m]）: 24.32
+
+t = 14
+placement:
+  UAV0 -> area 1 (SOCIAL, next_plan_index=13)
+  UAV1 -> area 3 (SOCIAL, next_plan_index=12)
+  UAV2 -> area 38 (RECOVERY, next_plan_index=10)
+  UAV3 -> area 6 (SOCIAL, next_plan_index=10)
+  UAV4 -> area 33 (SOCIAL, next_plan_index=10)
+収集済UE数: 1
+未収集UE数: 16
+UE移動（領域変更数）: 3
+UE移動（平均距離[m]）: 18.31
+
+t = 15
+placement:
+  UAV0 -> area 8 (SOCIAL, next_plan_index=14)
+  UAV1 -> area 9 (SOCIAL, next_plan_index=13)
+  UAV2 -> area 45 (RECOVERY, next_plan_index=11)
+  UAV3 -> area 13 (SOCIAL, next_plan_index=11)
+  UAV4 -> area 39 (SOCIAL, next_plan_index=11)
+収集済UE数: 1
+未収集UE数: 15
+UE移動（領域変更数）: 2
+UE移動（平均距離[m]）: 20.48
+
+t = 16
+placement:
+  UAV0 -> area 15 (SOCIAL, next_plan_index=15)
+  UAV1 -> area 16 (SOCIAL, next_plan_index=14)
+  UAV2 -> area 38 (SOCIAL, next_plan_index=12)
+  UAV3 -> area 20 (SOCIAL, next_plan_index=12)
+  UAV4 -> area 39 (SOCIAL, next_plan_index=12)
+収集済UE数: 1
+未収集UE数: 14
+UE移動（領域変更数）: 1
+UE移動（平均距離[m]）: 19.77
+
+t = 17
+placement:
+  UAV0 -> area 22 (SOCIAL, next_plan_index=16)
+  UAV1 -> area 8 (SOCIAL, next_plan_index=15)
+  UAV2 -> area 46 (SOCIAL, next_plan_index=13)
+  UAV3 -> area 27 (SOCIAL, next_plan_index=13)
+  UAV4 -> area 31 (SOCIAL, next_plan_index=13)
+収集済UE数: 4
+未収集UE数: 10
+UE移動（領域変更数）: 4
+UE移動（平均距離[m]）: 21.00
+
+t = 18
+placement:
+  UAV0 -> area 29 (SOCIAL, next_plan_index=17)
+  UAV1 -> area 15 (SOCIAL, next_plan_index=16)
+  UAV2 -> area 38 (SOCIAL, next_plan_index=14)
+  UAV3 -> area 26 (SOCIAL, next_plan_index=14)
+  UAV4 -> area 24 (SOCIAL, next_plan_index=14)
+収集済UE数: 2
+未収集UE数: 8
+UE移動（領域変更数）: 2
+UE移動（平均距離[m]）: 17.47
+
+t = 19
+placement:
+  UAV0 -> area 36 (SOCIAL, next_plan_index=18)
+  UAV1 -> area 22 (SOCIAL, next_plan_index=17)
+  UAV2 -> area 37 (SOCIAL, next_plan_index=15)
+  UAV3 -> area 27 (SOCIAL, next_plan_index=15)
+  UAV4 -> area 30 (SOCIAL, next_plan_index=15)
+収集済UE数: 2
+未収集UE数: 6
+UE移動（領域変更数）: 2
+UE移動（平均距離[m]）: 20.96
+
+t = 20
+placement:
+  UAV0 -> area 36 (DONE, next_plan_index=18)
+  UAV1 -> area 29 (SOCIAL, next_plan_index=18)
+  UAV2 -> area 38 (SOCIAL, next_plan_index=16)
+  UAV3 -> area 34 (SOCIAL, next_plan_index=16)
+  UAV4 -> area 29 (SOCIAL, next_plan_index=16)
+収集済UE数: 0
+未収集UE数: 6
+UE移動（領域変更数）: 6
+UE移動（平均距離[m]）: 27.79
+
+t = 21
+placement:
+  UAV0 -> area 36 (DONE, next_plan_index=18)
+  UAV1 -> area 29 (DONE, next_plan_index=18)
+  UAV2 -> area 44 (SOCIAL, next_plan_index=17)
+  UAV3 -> area 41 (SOCIAL, next_plan_index=17)
+  UAV4 -> area 36 (SOCIAL, next_plan_index=17)
+収集済UE数: 0
+未収集UE数: 6
+UE移動（領域変更数）: 4
+UE移動（平均距離[m]）: 31.59
+
+t = 22
+placement:
+  UAV0 -> area 36 (DONE, next_plan_index=18)
+  UAV1 -> area 29 (DONE, next_plan_index=18)
+  UAV2 -> area 44 (SOCIAL, next_plan_index=18)
+  UAV3 -> area 48 (SOCIAL, next_plan_index=18)
+  UAV4 -> area 43 (SOCIAL, next_plan_index=18)
+収集済UE数: 0
+未収集UE数: 6
+UE移動（領域変更数）: 1
+UE移動（平均距離[m]）: 23.86
+
+初期計画の実行終了: 23ステップ（最大25ステップ）
+実行時間: 23.0分
+収集済UE総数: 194
+t=0の仮想計画での未収集UE数: 0
+実際の未収集UE数: 6
+自己最適回数: {0: 2, 1: 3, 2: 3, 3: 3, 4: 3}
+復帰状態で移動したステップ数: {0: 2, 1: 3, 2: 5, 3: 5, 4: 5}
+saved: /home/andorssi/uav2gametheory/src/result/uav2game09_compare-20261114/hybrid_executed_route.png
+saved: /home/andorssi/uav2gametheory/src/result/uav2game09_compare-20261114/hybrid_log.csv
+未収集UEが残りました．社会最適の訪問順序と許可された局所的逸脱による収集を終了します．
+
+============================================================
+社会最適のみ vs 社会最適＋自己最適（同一初期UE配置・乱数シード）
+乱数シード: 2168664371334897783
+social: 収集済UE=185, 未収集UE=15, 実行ステップ=18
+hybrid: 収集済UE=194, 未収集UE=6, 実行ステップ=23
+収集数の差（hybrid - social）: 9
+自己最適回数: 14, 復帰ステップ数: 20
+saved: /home/andorssi/uav2gametheory/src/result/uav2game09_compare-20261114/comparison_steps.csv
+saved: /home/andorssi/uav2gametheory/src/result/uav2game09_compare-20261114/comparison_summary.csv
+saved: /home/andorssi/uav2gametheory/src/result/uav2game09_compare-20261114/comparison_collected.png
